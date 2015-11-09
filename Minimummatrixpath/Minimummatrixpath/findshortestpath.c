@@ -103,9 +103,6 @@ int findShortestpath(int** matrix, int length)
 				end = 0;
 			}
 
-			
-
-			pathno++;
 		}
 		while ((currpath = currpath->next_path) != NULL); /*Loop through linked list of paths*/
 
